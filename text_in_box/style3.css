@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 950px;
+    margin: auto;
+  }
+  
+.container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+  
+.text-block {
+    position: absolute;
+    right: 2em; /* Cách lề phải 2em */
+    bottom: 2em; /* Cách lề dưới 2em */
+    background-color: rgba(255, 255, 255, 0.5); /* Nền trắng với độ trong suốt 0.5 */
+    color: black;
+    padding: 1em; /* Cách lề trong của văn bản 1em */
+    font-size: 30px;
+}
+  
